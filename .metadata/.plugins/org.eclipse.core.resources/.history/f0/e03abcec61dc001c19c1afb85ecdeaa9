@@ -1,0 +1,14 @@
+package basic;
+
+public class Car {
+	public static void main(String[] args) {
+		
+		Mycar x= new Mycar();
+		String vehicle = x.mycarDetails();
+		
+		
+		
+		
+	}
+	
+	}

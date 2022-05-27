@@ -1,0 +1,24 @@
+package basic;
+
+public class InstanceLocalVariable {
+	int g=7;
+	int f= 9;
+	
+
+	public void localNumber(int a, int b) {
+		int g = 5;
+		System.out.println(a+b+this.g);
+		
+		}
+	public void localNumber2(int c, int d) {
+		System.out.println(c+d);
+		
+	}
+	public static void main(String[] args) {
+		InstanceLocalVariable ILV = new InstanceLocalVariable();
+		ILV.localNumber(10, 20);
+	}
+	
+	
+}
+

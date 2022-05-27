@@ -1,0 +1,16 @@
+package basic;
+
+public class Variable {
+	public static void main(String[] args) {
+		
+	String name = "siva";
+	int number = 123;
+	long count= 100000;
+	char letter= 'a';
+	double decemal = 10.2;
+	short value= 100;
+	float x= 10f;
+	
+	}
+
+}

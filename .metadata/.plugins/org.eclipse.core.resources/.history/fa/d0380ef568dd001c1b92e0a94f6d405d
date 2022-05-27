@@ -1,0 +1,13 @@
+package basic;
+
+public class MethodOverloading {
+	public void callByNumber(int phone_no) {
+		System.out.println("cell_phone"+ phone_no);
+		
+	}
+	public void callByName(String name) {
+		System.out.println("name"+ name);
+		
+	}
+
+}

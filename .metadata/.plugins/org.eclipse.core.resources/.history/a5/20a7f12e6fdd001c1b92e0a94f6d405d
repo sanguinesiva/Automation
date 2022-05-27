@@ -1,0 +1,20 @@
+package basic;
+
+public class InstanceLocalVariable {
+	int e;
+	int f= 9;
+	
+
+	public void localNumber(int a, int b) {
+		int g = 5;
+		System.out.println(a+b);
+		
+		}
+	public void localNumber2(int c, int d) {
+		System.out.println(c+d);
+		
+	
+	}
+	
+}
+

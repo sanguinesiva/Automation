@@ -1,0 +1,15 @@
+package basic;
+
+import java.net.Socket;
+
+public class Car {
+	public String drivingCar() {
+		int price= 100;
+		String model = "honda";
+		System.out.println(model+""+price);
+		return "model+ ";
+		
+
+
+	}
+}

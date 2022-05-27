@@ -1,0 +1,11 @@
+package basic;
+
+
+public class Answer {
+	public static void main(String[] args) {
+		Variable v = new Variable();
+		v.sivaLearningToCode();
+		v.sivaMultiplying();
+		v.sivaDividing();
+	}
+}
