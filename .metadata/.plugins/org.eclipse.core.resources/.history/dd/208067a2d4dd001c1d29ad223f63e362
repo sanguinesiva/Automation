@@ -1,0 +1,19 @@
+package basic;
+
+public class Static {
+int num1;
+static int num2;
+
+int incrementwork() {
+	num1++;
+	System.out.println(num1++ +num2);
+	return num2++;
+	
+}
+public static void main(String[] args) {
+	Static s= new Static();
+	int value= s.incrementwork();
+	int value2= s.incrementwork();
+}
+
+}

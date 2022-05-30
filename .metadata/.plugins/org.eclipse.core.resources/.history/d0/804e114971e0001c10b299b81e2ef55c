@@ -1,0 +1,23 @@
+package basic;
+
+public class Static2 {
+	String a= "eat";
+	static String b= "sleep";
+	public static activity() {
+		return "String";
+		
+	
+		
+		System.out.println(b);
+	}
+	
+	public static void main(String[] args) {
+		Static2.activity();
+		
+		
+	}
+
+	}
+
+
+

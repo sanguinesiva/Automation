@@ -1,0 +1,21 @@
+package basic;
+
+public class Static2 {
+	//String a= "eat";
+	//String b= "sleep";
+	public static void activity() {
+		System.out.println("rivaan");
+		
+	
+	}
+	
+	public static void main(String[] args) {
+		activity();
+		
+		
+	}
+
+	}
+
+
+
