@@ -18,6 +18,5 @@ public static void main(String[] args) {
 	s.incrementalwork();
 	Static s1 = new Static();
 	s1.incrementalwork();
-	
 }
 }
