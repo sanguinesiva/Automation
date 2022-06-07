@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 03 12:50:15 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (418 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "default login", "log in to imdb"</td>
+<td><div><pre>java.lang.NoSuchMethodError: &apos;com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)&apos;
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
+	at stepdefinition.imdbstepdefinition.user_is_on_landing_page(imdbstepdefinition.java:18)
+	at ?.user is on landing page(file:///C:/Users/sivak/eclipse-workspace/cucumber/src/test/java/feature/imdb.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace418513504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace418513504'><pre>java.lang.NoSuchMethodError: &apos;com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)&apos;
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
+	at stepdefinition.imdbstepdefinition.user_is_on_landing_page(imdbstepdefinition.java:18)
+	at ?.user is on landing page(file:///C:/Users/sivak/eclipse-workspace/cucumber/src/test/java/feature/imdb.feature:3)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestNGRunner@750e2b97</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario outline", "log in to imdb"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepdefinition.imdbstepdefinition.i_want_to_write_a_step_with_duplicate_emailid_com(imdbstepdefinition.java:79)
+	at ?.I want to write a step with duplicate@emailid.com(file:///C:/Users/sivak/eclipse-workspace/cucumber/src/test/java/feature/imdb.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1662912171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1662912171'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepdefinition.imdbstepdefinition.i_want_to_write_a_step_with_duplicate_emailid_com(imdbstepdefinition.java:79)
+	at ?.I want to write a step with duplicate@emailid.com(file:///C:/Users/sivak/eclipse-workspace/cucumber/src/test/java/feature/imdb.feature:12)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestNGRunner@750e2b97</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario outline", "log in to imdb"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepdefinition.imdbstepdefinition.i_want_to_write_a_step_with_fake_emailid_com(imdbstepdefinition.java:61)
+	at ?.I want to write a step with fake@emailid.com(file:///C:/Users/sivak/eclipse-workspace/cucumber/src/test/java/feature/imdb.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1347016882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1347016882'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepdefinition.imdbstepdefinition.i_want_to_write_a_step_with_fake_emailid_com(imdbstepdefinition.java:61)
+	at ?.I want to write a step with fake@emailid.com(file:///C:/Users/sivak/eclipse-workspace/cucumber/src/test/java/feature/imdb.feature:12)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestNGRunner@750e2b97</td></tr>
+</table><p>
+</body>
+</html>
