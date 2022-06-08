@@ -1,16 +1,20 @@
 @tag
 Feature: log in to imdb
-@tag1
 
+Background: 
+Given user is on  imdb webpage
+When using chrome browser
+Then navigates to login page
+
+@loginScenario
 Scenario: default login
- Given user is on landing page
- And in chrome browser
- When using login id and password
+ Given login using using login id 
  And wait for 100ms
+ When user enters the password 
  Then I validate the outcomes
- And check more outcomes
  
-@tag2
+ 
+@loginParameter
   Scenario Outline: Title of your scenario outline
     Given i want to enter  <user name>
     When I check for the <password> in step

@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 				"junit:target/cutes.xml"},
 		monochrome=true,
 		dryRun= true,
-		tags="@tag2 ")
+		tags="@tag or loginScenario")
 
 public class JunitRunner {
 
