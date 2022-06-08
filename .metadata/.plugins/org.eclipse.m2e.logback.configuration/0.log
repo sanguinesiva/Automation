@@ -1833,3 +1833,4 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Se
 2022-06-07 22:03:02,895 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sivak\eclipse-workspace\cucumber\src\main\resources
 2022-06-07 22:03:02,896 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-07 22:03:02,896 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sivak\eclipse-workspace\cucumber\src\test\resources
+2022-06-07 22:06:37,826 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
