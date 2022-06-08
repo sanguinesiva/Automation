@@ -17,7 +17,7 @@ public class imdbstepdefinition {
 	public void user_is_on_landing_page() {
 	System.out.println("hi");
 	   System.setProperty("webdriver.chrome.driver", "C:/Users/sivak/Downloads/chromedriver.exe");
-	   WebDriver driver= new ChromeDriver();
+	   driver= new ChromeDriver();
 	   driver.get("https://www.imdb.com/");
 	   	 
 	}
@@ -33,9 +33,6 @@ public class imdbstepdefinition {
 	public void using_login_id_and_password() {
 		WebElement signin= driver.findElement(By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/a"));
 			signin.click();
-		
-		
-		
 	
 	}
 
@@ -57,12 +54,13 @@ public class imdbstepdefinition {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Given("I want to write a step with fake@emailid.com")
-	public void i_want_to_write_a_step_with_fake_emailid_com() {
+	@Given("i want to enter  fake@emailid.com")
+	public void i_want_to_enter_fake_emailid_com() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
+	
 	@When("I check for the fake in step")
 	public void i_check_for_the_fake_in_step() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -75,8 +73,8 @@ public class imdbstepdefinition {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Given("I want to write a step with duplicate@emailid.com")
-	public void i_want_to_write_a_step_with_duplicate_emailid_com() {
+	@Given("i want to enter  duplicate@emailid.com")
+	public void i_want_to_enter_duplicate_emailid_com() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -92,6 +90,12 @@ public class imdbstepdefinition {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
+	@When("I check for the duplica  te in step")
+	public void i_check_for_the_duplica_te_in_step() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
 
 
 }
