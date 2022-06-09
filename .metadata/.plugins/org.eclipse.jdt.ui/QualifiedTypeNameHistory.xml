@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="basic.Constructor"/>
     <fullyQualifiedTypeName name="basic.Method1Q"/>
     <fullyQualifiedTypeName name="java.awt.DisplayMode"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="basic.Static2"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="basic.Parsing"/>
@@ -28,4 +27,16 @@
     <fullyQualifiedTypeName name="basic.Dee"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="basic.Ifelse"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.Cucumber"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
 </qualifiedTypeNameHistroy>
