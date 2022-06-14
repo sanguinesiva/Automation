@@ -18,8 +18,8 @@ public class ImdbScenarioOutline {
 		throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("I verify the fail in step")
-	public void i_verify_the_fail_in_step(DataTable table) {
+	@Then("I verify the pass in step")
+	public void i_verify_the_pass_in_step(DataTable table) {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
@@ -41,13 +41,5 @@ public class ImdbScenarioOutline {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-
-	@When("I check for the duplica  te in step")
-	public void i_check_for_the_duplica_te_in_step() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-
-
 
 }

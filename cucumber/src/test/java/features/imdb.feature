@@ -22,5 +22,5 @@ Scenario: default login
     
     Examples: 
       | user name  | password | status  |
-      | fake@emailid.com | fake | fail |
-      | duplicate@emailid.com |duplica  te| Fail  |
+      | fake@emailid.com | fake | pass |
+      | duplicate@emailid.com |duplicate| Fail  |

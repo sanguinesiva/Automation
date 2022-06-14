@@ -3,18 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Imdb">
+      <class name="CrossbrowserTesting">
         <methods>
-          <include name="password"/>
-          <include name="testing"/>
-          <include name="titleTest"/>
-          <include name="signIn"/>
-          <include name="setUp"/>
-          <include name="clickbutton"/>
-          <include name="userName"/>
-          <include name="signclick"/>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
         </methods>
-      </class> <!-- Imdb -->
+      </class> <!-- CrossbrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
