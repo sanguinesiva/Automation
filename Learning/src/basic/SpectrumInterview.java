@@ -13,11 +13,12 @@ public class SpectrumInterview {
 				if( original==num[i]) {
 					original *=2;
 					found=true;
-				}
+									}
 			}
-			
-			
+			if(!found) break;
+					
 		}
+		System.out.println(original);
 	}
 
 }
