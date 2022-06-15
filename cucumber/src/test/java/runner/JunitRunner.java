@@ -10,11 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 		features="C:\\Users\\sivak\\eclipse-workspace\\cucumber\\src\\test\\java\\features",
 		glue = "stepdefinitions",stepNotifications=true,
 		plugin= {"pretty",
-				"html:target/cucumber",
+				"html:target/cucumber.html",
 				"json:target/cucumber.json",
-				"junit:target/cutes.xml"},
+				"junit:target/cukes.xml"},
 		monochrome=true,
-		dryRun= true,
+		dryRun= false,
 		tags="@tag or loginScenario")
 
 public class JunitRunner {

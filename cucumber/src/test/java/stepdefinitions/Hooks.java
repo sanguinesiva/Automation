@@ -6,13 +6,12 @@ import io.cucumber.java.Before;
 public class Hooks {
 	@Before("@loginScenario")
 	public void beforevalidation() {
-		System.out.println("hihihi");
+		System.out.println("before");
 		
 	}
 	@After("@loginScenario")
 	public void aftervalidation() {
-		System.out.println("quit");
+		System.out.println("after");
 		
 	}
-
 }
