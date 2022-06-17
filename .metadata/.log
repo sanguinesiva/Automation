@@ -1746,3 +1746,255 @@ java.lang.Error: SWT Resource was not properly disposed
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50110 -protocol json -d C:\Users\sivak\eclipse-workspace\webdriveruniversity\test-output C:\Users\sivak\AppData\Local\Temp\testng-eclipse-2116226967\testng-customsuite.xml
 java -ea -classpath C:\Users\sivak\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\439\0\.cp\lib\testng-remote.jar:C:\Users\sivak\eclipse-workspace\webdriveruniversity\target\test-classes:C:\Users\sivak\eclipse-workspace\webdriveruniversity\target\classes:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar:C:\Users\sivak\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar:C:\Users\sivak\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar:C:\Users\sivak\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar:C:\Users\sivak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-junit\7.3.4\cucumber-junit-7.3.4.jar:C:\Users\sivak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar:C:\Users\sivak\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar:C:\Users\sivak\.m2\repository\net\masterthought\cucumber-reporting\5.7.0\cucumber-reporting-5.7.0.jar:C:\Users\sivak\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar:C:\Users\sivak\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar:C:\Users\sivak\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar:C:\Users\sivak\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.0\jackson-datatype-jsr310-2.13.0.jar:C:\Users\sivak\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar:C:\Users\sivak\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar:C:\Users\sivak\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar:C:\Users\sivak\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar:C:\Users\sivak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar:C:\Users\sivak\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar:C:\Users\sivak\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar:C:\Users\sivak\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar:C:\Users\sivak\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar:C:\Users\sivak\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\sivak\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\sivak\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\sivak\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar:C:\Users\sivak\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar:C:\Users\sivak\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\sivak\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar:C:\Users\sivak\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar:C:\Users\sivak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar:C:\Users\sivak\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar:C:\Users\sivak\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar:C:\Users\sivak\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.1\selenium-api-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.1\selenium-chrome-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar:C:\Users\sivak\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar:C:\Users\sivak\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.1\selenium-remote-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar:C:\Users\sivak\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.1\opentelemetry-api-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.1\opentelemetry-context-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.1\opentelemetry-exporter-logging-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.1-alpha\opentelemetry-sdk-metrics-1.9.1-alpha.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.1-alpha\opentelemetry-sdk-logs-1.9.1-alpha.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.1\opentelemetry-sdk-common-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.1\opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.1\opentelemetry-sdk-trace-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.1-alpha\opentelemetry-api-metrics-1.9.1-alpha.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.1\opentelemetry-sdk-1.9.1.jar:C:\Users\sivak\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.1-alpha\opentelemetry-semconv-1.9.1-alpha.jar:C:\Users\sivak\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar:C:\Users\sivak\.m2\repository\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar:C:\Users\sivak\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sivak\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar:C:\Users\sivak\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar:C:\Users\sivak\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar:C:\Users\sivak\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:C:\Users\sivak\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:C:\Users\sivak\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sivak\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar:C:\Users\sivak\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.1\selenium-http-4.1.1.jar:C:\Users\sivak\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar:C:\Users\sivak\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.1\selenium-support-4.1.1.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar:C:\Users\sivak\.m2\repository\org\testng\testng\7.5\testng-7.5.jar:C:\Users\sivak\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar:C:\Users\sivak\.m2\repository\io\cucumber\cucumber-picocontainer\7.3.4\cucumber-picocontainer-7.3.4.jar:C:\Users\sivak\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar org.testng.remote.RemoteTestNG -serport 50110 -protocol json -d C:\Users\sivak\eclipse-workspace\webdriveruniversity\test-output C:\Users\sivak\AppData\Local\Temp\testng-eclipse-2116226967\testng-customsuite.xml
+!SESSION 2022-06-15 08:10:22.885 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-15 08:10:26.097
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-15 08:10:26.097
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d22604e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2382b2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-15 08:10:26.097
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13374ca6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71734463,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-15 08:10:29.214
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sivak'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-06-15 08:10:34.066 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-15 08:10:36.919
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-15 08:10:36.919
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e95f584,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54997f67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-15 08:10:36.919
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bf4e48e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@299eca90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-15 08:10:39.847
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sivak'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:12:46.251
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:12:46.485
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:12:46.487
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:12:46.851
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:12:46.853
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:12:56.735
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:13:03.144
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 08:13:08.459
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.jface 2 0 2022-06-15 08:13:22.259
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-15 08:13:22.259
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cf2b638,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1653cc95,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:24:06.393
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:24:13.808
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:25:03.526
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:25:09.618
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:25:28.643
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:25:34.410
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:26:21.256
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:26:21.477
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:26:21.479
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:26:22.814
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:26:22.841
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:26:22.842
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-15 09:27:43.898
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+!SESSION 2022-06-16 23:10:11.028 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-16 23:10:16.502
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-16 23:10:16.502
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3eff6846,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ae6d078,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-16 23:10:16.502
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ca33187,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a67f8b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-16 23:10:21.658
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sivak'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-16 23:10:59.031
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-16 23:10:59.953
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-16 23:11:00.556
+!MESSAGE The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
