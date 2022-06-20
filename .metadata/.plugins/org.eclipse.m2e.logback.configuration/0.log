@@ -4550,3 +4550,5 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Se
 2022-06-16 23:11:00,656 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sivak\eclipse-workspace\webdriveruniversity\src\main\resources
 2022-06-16 23:11:00,659 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-16 23:11:00,660 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sivak\eclipse-workspace\webdriveruniversity\src\test\resources
+2022-06-20 09:52:11,047 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-20 12:47:37,016 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
