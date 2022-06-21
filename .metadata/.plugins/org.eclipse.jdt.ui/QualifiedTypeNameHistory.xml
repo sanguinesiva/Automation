@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
     <fullyQualifiedTypeName name="basic.Variable"/>
     <fullyQualifiedTypeName name="basic.Answer"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="basic.MethodOverloading"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicLookAndFeel"/>
     <fullyQualifiedTypeName name="basic.InstanceLocalVariable"/>
@@ -42,9 +41,20 @@
     <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
     <fullyQualifiedTypeName name="java.util.EnumSet"/>
     <fullyQualifiedTypeName name="basic.Loop"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="basic.Ifelse"/>
     <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.BaselineTIFFTagSet"/>
+    <fullyQualifiedTypeName name="java.awt.image.AbstractMultiResolutionImage"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.management.ValueExp"/>
+    <fullyQualifiedTypeName name="java.util.PrimitiveIterator.OfDouble"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.AbstractLayoutCache"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
+    <fullyQualifiedTypeName name="basic.RandomNumber"/>
+    <fullyQualifiedTypeName name="javax.security.auth.callback.ConfirmationCallback"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
 </qualifiedTypeNameHistroy>
